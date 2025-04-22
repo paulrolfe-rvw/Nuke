@@ -17,7 +17,7 @@ let package = Package(
         .library(name: "NukeExtensions", targets: ["NukeExtensions"])
     ],
     targets: [
-        .target(name: "Nuke", sources: ["Sources/Nuke"]),
+        .target(name: "Nuke"),
         .target(name: "NukeUI", dependencies: ["Nuke"]),
         .target(name: "NukeVideo", dependencies: ["Nuke"]),
         .target(name: "NukeExtensions", dependencies: ["Nuke"])
